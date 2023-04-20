@@ -10,6 +10,7 @@ export default defineType({
       title: 'Name',
       type: 'string',
     }),
+    // A Slug is the unique identifying part of a web address, typically at the end of the URL. It is used to identify a specific page on a website.
     defineField({
       name: 'slug',
       title: 'Slug',
