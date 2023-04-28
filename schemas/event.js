@@ -14,6 +14,7 @@ export default defineType({
       title: 'Card Image',
       name: 'card_image',
       type: 'image',
+      description: "Image that appears on event's card. Should ideally be 240x160 pixels",
     }),
     defineField({
       title: 'Start Date',
