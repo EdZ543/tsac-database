@@ -1,8 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
 export default defineType({
-  name: 'youthCommittee',
-  title: 'Youth Committee',
+  name: 'volunteering',
+  title: 'Volunteering',
   type: 'document',
   fields: [
     defineField({
