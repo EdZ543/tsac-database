@@ -8,7 +8,7 @@ export default defineConfig({
   title: 'tsac-database',
 
   projectId: '8if5onrn',
-  dataset: 'production',
+  dataset: process.env.SANITY_STUDIO_DATASET,
 
   plugins: [deskTool(), visionTool()],
 
