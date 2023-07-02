@@ -4,8 +4,8 @@ import club from './club'
 import event from './event'
 import volunteering from './volunteering'
 import youthCommittee from './youthCommittee'
-import studyResource from './studyResource'
-import faq from './faq'
+import studyResourceGroup from './studyResourceGroup'
+import faqGroup from './faqGroup'
 
 export const schemaTypes = [
   blockContent,
@@ -14,6 +14,6 @@ export const schemaTypes = [
   event,
   volunteering,
   youthCommittee,
-  studyResource,
-  faq,
+  studyResourceGroup,
+  faqGroup,
 ]
